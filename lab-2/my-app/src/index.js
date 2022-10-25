@@ -5,12 +5,18 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Greeter from './greeter';
 import LikeButton from './LikeButton';
+import Student from './components/student';
+import College from './components/college';
+import Course from './components/courses';
+
 
 function Display() {
   return(
     <>
-    <Greeter/>
-    <LikeButton/>
+    <Student name="Rick Rude" number="11111"/> <Course enrolled ="2" />
+    <Student name="Shawn Michaels" number="22222" /> <Course enrolled ="1" />
+    <Student name="Bret Hart" number="33333" /> <Course enrolled ="3" />
+    <College name="George Brown" location ="Casa Loma" />
     </>
   )
 }
